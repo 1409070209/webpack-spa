@@ -19,7 +19,10 @@ module.exports = {
         port: 9000,
         inline: true,
         compress: true,
-        hot: true
+        hot: true,
+        overlay: true,
+        clientLogLevel: "none",
+        noInfo: true
     },
     module: {
         loaders: [
@@ -43,6 +46,10 @@ module.exports = {
                 loader: 'url-loader?limit=8192&name=/img/[name]-hash.[ext]',
             },
             {
+                test: /\.(woff2?|otf|eot|svg|ttf)$/i,
+                loader: 'url?name=fonts/[name].[ext]'
+            },
+            {
                 test: /\.less$/,
                 loader: 'style-loader!css-loader!postcss-loader!less-loader'
             },
@@ -54,10 +61,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './public/main.html'
+            template: './public/test.html'
         }),
         new ExtractTextPlugin("styles.css"),
         new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
     ]
 };

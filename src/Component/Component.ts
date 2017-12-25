@@ -1,3 +1,5 @@
+import './reset.css';
+
 class Component{
     static _document:Document = document || null;
     protected html = '';

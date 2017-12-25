@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.float-left{
+    float: left;
+}
+.clear{
+    zoom: 1;
+}
+.clear:after{
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+}
+img{
+    vertical-align: bottom;
+}
+.box-center{
+    margin: 0 auto;
+}
+.vertical-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+

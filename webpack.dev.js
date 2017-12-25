@@ -2,6 +2,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var autoprefixer = require('autoprefixer');
 var path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var webpack = require('webpack');
 
 module.exports = {
     entry: './src/index.js',
@@ -36,6 +37,10 @@ module.exports = {
                 loader: 'url-loader?limit=8192&name=/img/[name]-[hash:8].[ext]',
             },
             {
+                test: /\.(woff2?|otf|eot|svg|ttf)$/i,
+                loader: 'url?name=fonts/[name].[ext]'
+            },
+            {
                 test: /\.less$/,
                 loader: 'style-loader!css-loader!postcss-loader!less-loader'
             },
@@ -47,8 +52,13 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './public/main.html'
+            template: './public/test.html'
         }),
         new ExtractTextPlugin("styles.css"),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
     ]
 };

@@ -1,0 +1,17 @@
+.HolyGrail {
+    display: flex;
+    align-items: flex-start;
+}
+.HolyGrail div{
+    width: 600px;
+    background-color: red;
+    word-break: break-all;
+}
+.HolyGrail div:first-child{
+    width: 50%;
+    background-color: pink;
+}
+.HolyGrail div:last-child{
+    width: 50%;
+    background-color: yellow;
+}

@@ -1,0 +1,25 @@
+.Flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Flex div {
+    width: 80px;
+    height: 80px;
+    background: blue;
+    margin: 20px;
+}
+.Flex span {
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.Flex div:first-child{
+    height: 40px;
+}
+.Flex div:first-child span{
+    line-height: 40px;
+}
