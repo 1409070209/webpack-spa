@@ -1,0 +1,14 @@
+.Canvas{
+    border: 1px solid blue;
+    width: 50px;
+    min-width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+.Canvas canvas {
+    width: 100%;
+    height: 100%;
+}
+.Canvas::after{
+    content: '这是一个canvas游戏';
+}

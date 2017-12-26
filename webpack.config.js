@@ -1,11 +1,12 @@
 let HtmlWebpackPlugin = require('html-webpack-plugin');
-let autoprefixer = require('autoprefixer');
 let path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var webpack = require('webpack');
 
+
 module.exports = {
     entry: './src/index.js',
+    context: path.resolve(__dirname, './'),
     output: {
         path: path.resolve(__dirname, './build'),
         filename: 'js/index-hash.js'
@@ -16,7 +17,7 @@ module.exports = {
     devServer: {
         contentBase : "./dist",
         open : true,
-        port: 9000,
+        port: 8081,
         inline: true,
         compress: true,
         hot: true,
@@ -28,13 +29,15 @@ module.exports = {
         loaders: [
             {
                 test: /\.ts$/,
+                exclude: /(node_modules|bower_components)/,
                 loader: 'ts-loader'
             },
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
+                exclude: /(node_modules|bower_components)/,
                 query: {
-                    presets: ['es2015']
+                    presets: ['es2015','stage-1']
                 }
             },
             {
@@ -43,11 +46,30 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif|svg|jpeg)$/,
-                loader: 'url-loader?limit=8192&name=/img/[name]-hash.[ext]',
+                loader: 'url-loader',
+                options: {
+                    limit: 8192,
+                    name: './img/name.[ext]',
+                    publicPath: this.context
+                }
+            },
+            {
+                test: /\.(mp3|mp4|avi|flv|f4v)$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 8192,
+                    name: './video/name.[ext]',
+                    publicPath: this.context
+                }
             },
             {
                 test: /\.(woff2?|otf|eot|svg|ttf)$/i,
-                loader: 'url?name=fonts/[name].[ext]'
+                loader: 'url-loader',
+                options: {
+                    limit: 8192,
+                    name: './font/name.[ext]',
+                    publicPath: this.context
+                }
             },
             {
                 test: /\.less$/,
@@ -65,6 +87,6 @@ module.exports = {
         }),
         new ExtractTextPlugin("styles.css"),
         new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin(),
+        new webpack.HotModuleReplacementPlugin()
     ]
 };

@@ -9,6 +9,7 @@ class Flex extends Component{
     constructor () {
         super();
         this.html += html;
+        this.render()
     }
 }
 
