@@ -49,7 +49,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './img/name.[ext]',
+                    name: './img/[name].[ext]',
                     publicPath: this.context
                 }
             },
@@ -58,7 +58,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './video/name.[ext]',
+                    name: './video/[name].[ext]',
                     publicPath: this.context
                 }
             },
@@ -67,7 +67,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './font/name.[ext]',
+                    name: './font/[name].[ext]',
                     publicPath: this.context
                 }
             },

@@ -2,24 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b7e11f-e3bb-4800-9fad-f25d91ff0a6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/static/ANiMA.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/Audio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/Audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/Auido.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/Canvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/Canvas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/Canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Canvas/CanvasEnum/CanvasEnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/static/AnRan.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/static/fate.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioContext.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Component/Component.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/UPCdevelopment.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/UPCdevelopment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Flex/Flex.js" afterPath="$PROJECT_DIR$/src/Component/Flex/Flex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Header/Header.html" afterPath="$PROJECT_DIR$/src/Component/Header/Header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Audio/Audio.js" afterPath="$PROJECT_DIR$/src/Component/Audio/Audio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Audio/Auido.css" afterPath="$PROJECT_DIR$/src/Component/Audio/Auido.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Canvas/Canvas.css" afterPath="$PROJECT_DIR$/src/Component/Canvas/Canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Canvas/Canvas.js" afterPath="$PROJECT_DIR$/src/Component/Canvas/Canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts" afterPath="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Component/Component.ts" afterPath="$PROJECT_DIR$/src/Component/Component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.dev.js" afterPath="$PROJECT_DIR$/webpack.dev.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="164">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -45,10 +47,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AudioContext.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioContext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Canvas.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Canvas.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="819">
               <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -57,23 +79,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Audio.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.js">
+      <file leaf-file-name="Line.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Audio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.html">
+      <file leaf-file-name="Canvas.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="234">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -82,8 +112,28 @@
       <file leaf-file-name="Auido.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Audio/Auido.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="468">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Audio.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Audio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -95,10 +145,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
-        <option value="Javascript Class" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="Javascript Class" />
       </list>
     </option>
   </component>
@@ -116,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/main.html" />
         <option value="$PROJECT_DIR$/src/util/Math.js" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/build/js/index-hash.js" />
@@ -134,7 +183,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Demo/Promise.js" />
         <option value="$PROJECT_DIR$/src/Demo/PromiseDemo.js" />
-        <option value="$PROJECT_DIR$/src/Component/Component.ts" />
         <option value="$PROJECT_DIR$/src/Component/reset.css" />
         <option value="$PROJECT_DIR$/src/Component/Flex/Flex.html" />
         <option value="$PROJECT_DIR$/src/Demo/MoreThanHalfInTheArray.js" />
@@ -150,19 +198,24 @@
         <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.js" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.js" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.ts" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasEnum/Canvas.js" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.ts" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.css" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/Main.ts" />
         <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.html" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.js" />
         <option value="$PROJECT_DIR$/webpack.dev.js" />
         <option value="$PROJECT_DIR$/src/Component/Audio/Audio.html" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/Component/Component.ts" />
+        <option value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts" />
+        <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.css" />
+        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts" />
         <option value="$PROJECT_DIR$/src/Component/Audio/Auido.css" />
+        <option value="$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioConfig.ts" />
+        <option value="$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioConfig.js" />
+        <option value="$PROJECT_DIR$/src/Component/Canvas/Canvas.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioContext.js" />
         <option value="$PROJECT_DIR$/src/Component/Audio/Audio.js" />
       </list>
     </option>
@@ -231,14 +284,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="webpack" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,29 +314,30 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="dev&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.dev.js&#10;confi&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.config.js&#10;Ca&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/Component/Canvas/Canvas.js&#10;pac&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/package.json&#10;webpac&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.config.js&#10;less&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/css/less/main.less&#10;index&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/index.js&#10;pa&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/package.json&#10;pack&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.dev.js" />
+    <property name="SearchEverywhereHistoryKey" value="in&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/index.js&#10;a&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/Component/Audio/Auido.css&#10;ca&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/Component/Canvas/Canvas.css&#10;web&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.config.js&#10;dev&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.dev.js&#10;confi&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.config.js&#10;Ca&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/Component/Canvas/Canvas.js&#10;pac&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/package.json&#10;webpac&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.config.js&#10;less&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/css/less/main.less&#10;index&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/src/index.js&#10;pa&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/package.json&#10;pack&#9;FILE&#9;file://C:/yiban_web/WebInfo/webpack/webpack.dev.js" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Canvas\static" />
-      <recent name="C:\yiban_web\WebInfo\webpack\src\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Audio" />
       <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Canvas" />
       <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Canvas\CanvasEnum" />
       <recent name="C:\yiban_web\WebInfo\webpack\src\Component" />
       <recent name="C:\yiban_web\WebInfo\webpack\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Audio\static" />
+      <recent name="C:\yiban_web\WebInfo\webpack\src\Component\Canvas\static" />
+      <recent name="C:\yiban_web\WebInfo\webpack\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,33 +428,43 @@
       <workItem from="1514076106288" duration="18007000" />
       <workItem from="1514184127275" duration="5026000" />
       <workItem from="1514256824714" duration="5050000" />
-      <workItem from="1514262655849" duration="9994000" />
+      <workItem from="1514262655849" duration="12825000" />
+      <workItem from="1514349384863" duration="15393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78302000" />
+    <option name="totallyTimeSpent" value="96526000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15906681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15906681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.50424176" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.4957582" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.4957582" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.4957582" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -397,12 +472,7 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Component/Component.js.map" />
-        <option value="$PROJECT_DIR$/src/Component/Component.js" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.js.map" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.js" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Point.js.map" />
-        <option value="$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.js" />
+        <option value="$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioConfig.js" />
       </list>
     </option>
   </component>
@@ -440,40 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.npminstall.done">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -518,7 +554,6 @@
     <entry file="file://$PROJECT_DIR$/src/util/css/main.css" />
     <entry file="file://$PROJECT_DIR$/src/css/main.css" />
     <entry file="file://$PROJECT_DIR$/src/css/less/main.less" />
-    <entry file="file://$PROJECT_DIR$/src/Component/Component.js" />
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -574,15 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="14" column="87" lean-forward="false" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,33 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Canvas/CanvasEnum/CanvasEnum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,6 +695,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3588">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2691">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <caret line="69" column="40" lean-forward="false" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/index-0fe1f999.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="731" column="14" lean-forward="false" selection-start-line="731" selection-start-column="14" selection-end-line="731" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17199" column="20" lean-forward="false" selection-start-line="17199" selection-start-column="20" selection-end-line="17199" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -707,19 +765,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioConfig.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Canvas/CanvasElement/Line.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Audio/Auido.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="164">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Audio/AudioCanvas/AudioContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Canvas/Canvas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="819">
           <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -727,45 +833,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3588">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Audio/Auido.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Audio/Audio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="117">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

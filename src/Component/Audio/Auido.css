@@ -10,3 +10,7 @@
 .control button{
     font-size: 28px;
 }
+.control p{
+    display: inline;
+    word-break: break-all;
+}

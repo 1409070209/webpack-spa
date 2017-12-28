@@ -3,7 +3,9 @@
     width: 50px;
     min-width: 800px;
     height: 800px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 .Canvas canvas {
     width: 100%;
@@ -11,4 +13,5 @@
 }
 .Canvas::after{
     content: '这是一个canvas游戏';
+    display: block;
 }
