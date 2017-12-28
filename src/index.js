@@ -14,8 +14,8 @@ document.querySelector('button').onclick = () => {
 let lastDate = new Date();
 let lastArr = [];
 
-const lineWidth = 18;
-const lineMargin = 10;
+const lineWidth = 7;
+const lineMargin = 15;
 const lineColor = "#97ffaf";
 const lineBottom = 500;
 function draw (arr) {

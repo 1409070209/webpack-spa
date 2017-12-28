@@ -1,16 +1,5 @@
 .Audio{
     width: 100px;
-    height: 100px;
+    /*height: 100px;*/
     background-color: red;
-}
-.Audio button {
-    position: absolute;
-    z-index: 500;
-}
-.control button{
-    font-size: 28px;
-}
-.control p{
-    display: inline;
-    word-break: break-all;
 }

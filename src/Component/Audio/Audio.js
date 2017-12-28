@@ -1,7 +1,7 @@
 import Component from "../Component";
 import './Auido.css';
 import Html from'./Audio.html';
-import ANiMA from "./static/ANiMA.mp3";
+import ANiMA from "./static/AnRan.mp3";
 
 class Audio extends Component{
     div;

@@ -12,6 +12,6 @@
     height: 100%;
 }
 .Canvas::after{
-    content: '这是一个canvas游戏';
+    content: '这是支持音乐可视化的云音乐Web App';
     display: block;
 }
