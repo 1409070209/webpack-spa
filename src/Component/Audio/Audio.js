@@ -1,12 +1,11 @@
 import Component from "../Component";
 import './Auido.css';
 import Html from'./Audio.html';
-import ANiMA from "./static/澤野弘之 - Call your name (Vocal mpi & CASG ).mp3";
+
 
 class Audio extends Component{
     div;
     audio;
-    audioSource;
 
     constructor (){
         super();
@@ -16,11 +15,7 @@ class Audio extends Component{
     }
     renderAfter(){
         this.div = document.querySelector('#audioDiv');
-        this.audioSource = document.querySelector('#audio');
         this.audio = this.div.querySelector('audio');
-        this.audioSource.src = ANiMA;
-
-        this.audio.play();
         //传入常量并且给定回调
     }
 }

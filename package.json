@@ -7,7 +7,7 @@
     "test": "npm run test",
     "start": "webpack-dev-server",
     "build": "webpack --config webpack.dev.js",
-    "webpack": "webpack",
+    "webpack": "webpack && cd build && http-server",
     "webpack-mobile": "webpack-dev-server --host 0.0.0.0"
   },
   "homepage": "./",
@@ -39,6 +39,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "fastclick": "^1.0.6"
+    "fastclick": "^1.0.6",
+    "three": "^0.99.0"
   }
 }

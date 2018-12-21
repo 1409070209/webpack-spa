@@ -9,7 +9,7 @@ module.exports = {
     context: path.resolve(__dirname, './'),
     output: {
         path: path.resolve(__dirname, './build'),
-        filename: 'js/index-hash.js'
+        filename: 'js/index-[hash].js'
     },
     resolve: {
         extensions: ['.ts', '.js']
@@ -49,7 +49,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './img/name.[ext]',
+                    name: './img/name-[hash].[ext]',
                     publicPath: this.context
                 }
             },
@@ -58,7 +58,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './video/name.[ext]',
+                    name: './video/name-[hash].[ext]',
                     publicPath: this.context
                 }
             },
@@ -67,7 +67,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    name: './font/name.[ext]',
+                    name: './font/name-[hash].[ext]',
                     publicPath: this.context
                 }
             },
@@ -87,6 +87,11 @@ module.exports = {
         }),
         new ExtractTextPlugin("styles.css"),
         new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+              warnings: false
+            }
+        })
     ]
 };
