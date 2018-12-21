@@ -1,15 +1,9 @@
 .Canvas{
     border: 1px solid blue;
-    width: 50px;
-    min-width: 800px;
-    height: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-}
-.Canvas canvas {
-    width: 100%;
-    height: 100%;
+    width: 600px;
 }
 .Canvas::after{
     content: '这是支持音乐可视化的云音乐Web App';

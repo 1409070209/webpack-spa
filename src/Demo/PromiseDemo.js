@@ -1,3 +1,5 @@
+
+
 class PromiseDemo {
     constructor (){
         this.promise = function (fun) {
