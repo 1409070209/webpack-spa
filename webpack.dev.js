@@ -8,7 +8,7 @@ module.exports = {
     entry: './src/index.js',
     context: path.resolve(__dirname, './'),
     output: {
-        path: path.resolve(__dirname, './build'),
+        path: path.resolve(__dirname, './docs'),
         filename: 'js/index-[hash].js'
     },
     resolve: {
